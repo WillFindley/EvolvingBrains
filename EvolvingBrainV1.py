@@ -63,7 +63,7 @@ class Neuron:
             return 0
 
 
-generationSize = 1000
+generationSize = 1000   # number of neural nets in a generation
 selectionPressure = 0.2 # proportion killed off without offspring at end of generation
 sensoryInput = [0,1]    # which pixel is on
 motorOutput = [0,1]     # should I act
